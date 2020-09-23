@@ -41,7 +41,8 @@ while(st<=ed):
     st+=1
     count+=1
 time.sleep(2)
-message = "Hey We are here with The Viral Voice (LPU's First E-Singing Reality show) Participate and Win Prizes upto INR5000 For more details Visit Now bit.ly/tvvf"
+#Add message here
+message = "Type message here....."
 driver.find_element_by_xpath('/html/body/mw-app/mw-bootstrap/div/main/mw-main-container/div/mw-new-conversation-container/mw-new-conversation-sub-header/div/div[2]/mw-contact-chips-input/button').click()
 time.sleep(16)
 messend = driver.find_element_by_xpath('/html/body/mw-app/mw-bootstrap/div/main/mw-main-container/div/mw-conversation-container/div/div/mws-message-compose/div/div[2]/div/mws-autosize-textarea/textarea')
