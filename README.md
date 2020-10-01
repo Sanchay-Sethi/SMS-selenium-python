@@ -1,6 +1,6 @@
 # SMS-selenium-python
 How to do : 
-1. First u need to have a python interpreter
+1. First u need a python interpreter
 2. Open terminal and install these pre-requisite:
    ->pip install selenium
    ->pip install openpyxl
